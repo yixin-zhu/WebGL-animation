@@ -8,9 +8,6 @@ function rotate(gl, modelMatrix, u_ModelMatrix) {
     if (isRotating) {
       currentAngle = animateAngle(currentAngle);
       currentScale = animateScale(currentScale);
-      console.log("isRotating");
-    } else {
-      console.log("isNotRotating");
     }
     updateModelMatrix(
       gl,
